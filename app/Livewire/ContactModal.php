@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Counter extends Component
+class ContactModal extends Component
 {
     public function render()
     {
-        return view('livewire.counter');
+        return view('livewire.contact-modal');
     }
 }
