@@ -2,7 +2,7 @@
     <header class="z-50 top-0 inset-x-0	absolute">
       <nav class="lg:px-8 p-6 justify-between items-center flex ">
         <div class="lg:flex-1 flex">
-          <a href="#" class="p-1.5 -m-1.5 decoration-inherit">
+          <a href="/" class="p-1.5 -m-1.5 decoration-inherit">
             <span class="t">Company</span>
             <img class="w-auto h-8 " src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="">
           </a>
@@ -13,10 +13,11 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
           </button>
         </div>
-        <div class="lg:gap-x-12 lg:flex hidden" x-data="{ navs: ['Product','Features','Marketplace','Company']}" x-init="() => { navs = [...new Set(navs)]; }">
-          <template x-for="nav in navs" :key="nav">
-            <a href="#" x-text="nav" class="text-white leading-6 text-sm decoration-inherit font-semibold"></a>
-          </template>
+        <div class="lg:gap-x-12 lg:flex hidden">
+          <a href="/product" class="text-white leading-6 text-sm decoration-inherit font-semibold">Product</a>
+          <a href="#" class="text-white leading-6 text-sm decoration-inherit font-semibold">Features</a>
+          <a href="#" class="text-white leading-6 text-sm decoration-inherit font-semibold">Marketplace</a>
+          <a href="#" class="text-white leading-6 text-sm decoration-inherit font-semibold">Company</a>
         </div>
         <div class="lg:justify-end lg:flex-1 lg:flex hidden">
           <a href="#" class="text-white font-semibold leading-6 text-sm decoration-inherit">Log in<span aria-hidden="true">→</span></a>
@@ -56,7 +57,7 @@
     </div>
 </div>
 
-<main>
+
     <div class="sm:pb-20 pt-14 pb-16 bg-gray-900 overflow-hidden isolate relative">
       <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" class="object-cover w-full h-full -z-10 inset-0 absolute" alt="">
       <div class="sm:-top-80 blur-3xl filter overflow-hidden trans -z-10 -top-40 inset-x-0 absolute" aria-hidden="true">
