@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\ContactModal;
+use App\Livewire\Post\CreatePost;
+use App\Livewire\Post\Posts;
+use App\Livewire\Post\UpdatePost;
 use App\Livewire\Product;
 
 /*
@@ -21,3 +24,6 @@ use App\Livewire\Product;
 
 Route::get('/', ContactModal::class);
 Route::get('/product', Product::class);
+Route::get('/posts', Posts::class);
+Route::get('/posts/create', CreatePost::class);
+Route::get('/posts/edit/{id}', UpdatePost::class);

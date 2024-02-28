@@ -3,15 +3,13 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use Livewire\Attributes\Title;
 
 
 class Product extends Component
 {
     
-    // public function goToProductPage()
-    // {
-    //     return redirect()->to('/product');
-    // }
+    #[Title('Product')]
 
     public function render()
     {
