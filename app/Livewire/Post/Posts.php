@@ -16,6 +16,16 @@ class Posts extends Component
         return $this->redirect('/posts/create', true);
     }
 
+    public function delete($id){
+        $this->posts = Post::find($id);
+        if ($this->posts){
+            $this->posts->delete();
+            session()->flash('message', 'Phần tử đã được xóa thành công!');
+        } else {
+            session()->flash('message', 'Không thể tìm thấy phàn tử cần xóa!');
+        }
+    }
+
     public function render()
     {
         $this->posts = Post::all();

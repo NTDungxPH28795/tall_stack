@@ -11,7 +11,6 @@ class CreatePost extends Component
 {
     #[Title('Create Post')]
     public $name = null;
-    public $result = null;
     public $posts = [];
 
     public function handleSubmit(){
@@ -19,7 +18,6 @@ class CreatePost extends Component
         $post = new Post();
         $post->name = $this->name;
         $post->save();
-        $this->result=$this->name;
         $this->name = '';
         // return redirect('/posts')->with('msg', "Successfully created");
         session()->flash('msg' , "Successfully created");
