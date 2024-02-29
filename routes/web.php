@@ -6,6 +6,7 @@ use App\Livewire\Post\CreatePost;
 use App\Livewire\Post\Posts;
 use App\Livewire\Post\UpdatePost;
 use App\Livewire\Product;
+use App\Livewire\Todo\Todos;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,4 @@ Route::get('/product', Product::class);
 Route::get('/posts', Posts::class);
 Route::get('/posts/create', CreatePost::class);
 Route::get('/posts/edit/{id}', UpdatePost::class);
+Route::get('/todos', Todos::class);

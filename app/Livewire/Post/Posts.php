@@ -20,9 +20,9 @@ class Posts extends Component
         $this->posts = Post::find($id);
         if ($this->posts){
             $this->posts->delete();
-            session()->flash('message', 'Phần tử đã được xóa thành công!');
+            session()->flash('msg', 'Phần tử đã được xóa thành công!');
         } else {
-            session()->flash('message', 'Không thể tìm thấy phàn tử cần xóa!');
+            session()->flash('msg', 'Không thể tìm thấy phàn tử cần xóa!');
         }
     }
 

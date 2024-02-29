@@ -121,3 +121,7 @@
     left: calc(50% + 36rem);
   }
 }
+.tdl span.completed{
+  text-decoration: line-through;
+  color: gray;
+}

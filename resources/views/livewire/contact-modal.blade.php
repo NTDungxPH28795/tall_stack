@@ -198,7 +198,7 @@
           <div>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">What's the best thing about Switzerland?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>
@@ -213,7 +213,7 @@
             </dl>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">How do you make holy water?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>
@@ -228,7 +228,7 @@
             </dl>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">What do you call someone with no body and no nose?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>
@@ -243,7 +243,7 @@
             </dl>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">Why do you never see elephants hiding in trees?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>
@@ -258,7 +258,7 @@
             </dl>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">Why can't you hear a pterodactyl go to the bathroom?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>
@@ -273,7 +273,7 @@
             </dl>
             <dl class="mt-10 border border-gray-900 border-opacity-10 pt-6 border-b-0 border-l-0 border-r-0">
               <div x-data="{ isAddIcon: true }" class="pt-6">
-                <button @click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
+                <button x-on:click="isAddIcon = !isAddIcon" class="flex justify-between	text-gray-900	items-center items-start	w-full">
                   <span class="leading-7 text-base font-semibold">Why did the invisible man turn down the job offer?</span>
                   <span class="items-center h-7 flex ml-6">
                     <svg x-show="isAddIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg>

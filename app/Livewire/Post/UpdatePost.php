@@ -9,6 +9,7 @@ class UpdatePost extends Component
 {
     public $name = null;
     public $post = null;
+    
     public function mount($id){
         $this->post = Post::find($id);
         if(!$this->post){
