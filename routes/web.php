@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Livewire\ContactModal;
+use App\Livewire\HomePage;
 use App\Livewire\Post\CreatePost;
 use App\Livewire\Post\Posts;
 use App\Livewire\Post\UpdatePost;
@@ -23,7 +23,7 @@ use App\Livewire\Todo\Todos;
 //     return view('index');
 // });
 
-Route::get('/', ContactModal::class);
+Route::get('/', HomePage::class);
 Route::get('/product', Product::class);
 Route::get('/posts', Posts::class);
 Route::get('/posts/create', CreatePost::class);

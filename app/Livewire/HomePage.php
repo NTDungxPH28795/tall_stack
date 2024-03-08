@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class ContactModal extends Component
+class HomePage extends Component
 {
     public function render()
     {
-        return view('livewire.contact-modal');
+        return view('livewire.home-page');
     }
 }
