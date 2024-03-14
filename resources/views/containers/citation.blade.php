@@ -7,7 +7,7 @@
     <div class="xl:items-stretch xl:flex-row lg:px-8 sm:gap-y-8 px-6 gap-y-10 gap-x-8 items-center flex-col max-w-7xl flex mx-auto">
       <div class="xl:flex-none xl:w-96 xl:-mb-8 max-w-2xl w-full -mt-8">
         <div class="as xl:mx-0 md:-mx-8 h-full relative">
-          <img class="object-cover bg-gray-800 rounded-2xl w-full h-full inset-0 absolute bbj	" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="">
+          <img class="object-cover bg-gray-800 rounded-2xl w-full h-full inset-0 absolute bbj	" src="{{asset('storage/a.avif')}}" alt="">
         </div>
       </div>
       <div class="xl:py-24 xl:px-16 xl:flex-1 xl:max-w-none max-w-2xl w-full ">

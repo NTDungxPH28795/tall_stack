@@ -8,7 +8,7 @@
     </div>
     <div class="pt-16 overflow-hidden relative">
       <div class="lg:px-8 px-6 max-w-7xl mx-auto">
-        <img src="https://tailwindui.com/img/component-images/project-app-screenshot.png" alt="App screenshot" class="ring-color-g bbj ring-1 rounded-xl	jm" width="2432" height="1442">
+        <img src="{{asset('storage/project-app-screenshot.png')}}" alt="App screenshot" class="ring-color-g bbj ring-1 rounded-xl	jm" width="2432" height="1442">
         <div class="relative">
           <div class="bg-gradient-to-t from-white avi bottom-0 -inset-x-20 absolute"></div>
         </div>
